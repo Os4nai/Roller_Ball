@@ -1,0 +1,12 @@
+仮想環境の有効化
+env38\Scripts\activate
+
+
+pythonの仮想環境化で実行
+mlagents-learn ./config/sample/RollerBall.yaml --run-id=RollerBall-ppo-2
+
+
+これを打ってから下のurlが見れるようになる
+tensorboard --logdir ./
+
+http://localhost:6006/
